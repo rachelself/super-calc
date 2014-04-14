@@ -1,25 +1,76 @@
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+body{
+  width: 50%;
+  margin: 0 auto;
+}
+
 #calculator {
   font-family: 'Share Tech Mono';
+  background-color: #003399;
+  border-radius: 10px;
 }
+
 #title {
   font-family: 'Share Tech Mono';
+  font-size: 40px;
 }
+
+
+#queue {
+  background-color: #CCFFFF;
+}
+
 .button {
-  border: 1px solid #cccccc;
+  border: 1px solid #CCFFFF;
   padding: 5px;
   border-radius: 5px;
   text-align: center;
   width: 20px;
   cursor: pointer;
 }
+
+.number {
+  background-color: #CCFF33;
+  color: #000066;
+}
+
+.decimal {
+  background-color: #CCFF33;
+  color: #000066;
+}
+
+.sign {
+  background-color: #CCFF33;
+  color: #000066;
+}
+
+.clear {
+  background-color: #CCFFFF;
+  color: #000066;
+}
+
+.push {
+  background-color: #CCFFFF;
+  color: #000066;
+}
+
+.operator {
+  background-color: #000066;
+  color: #CCFF33;
+}
+
 #display {
   font-family: 'Share Tech Mono';
   text-align: right;
   font-size: 30px;
   border: 1px solid #cccccc;
   padding: 5px;
+  background-color: #CCFFFF;
+  color: #003399;
+  border-radius: 5px;
 }
+
 table {
   border-spacing: 10px;
   border-collapse: separate;
